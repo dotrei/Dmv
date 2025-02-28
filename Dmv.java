@@ -9,7 +9,7 @@ public class Dmv {
         System.out.println("Your number is " + randomint);
         System.out.println(" ");
 
-        while (plusOne <= 100) {
+        while (plusOne <= 200) {
             System.out.print("Number " + plusOne + "!, ");
             plusOne++;
         }
