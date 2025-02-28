@@ -3,7 +3,7 @@ public class Dmv {
 
         int randomint = (int) (Math.random() * 100);
         int plusOne = randomint + 1;
-        int integerCopy = randomint;
+        int i = 1;
         
         System.out.println("Hello to the DMV!");
         System.out.println("Your number is " + randomint);
@@ -13,9 +13,9 @@ public class Dmv {
             System.out.print("Number " + plusOne + "!, ");
             plusOne++;
         }
-        while (integerCopy < randomint) {
-            System.out.print("Number " + integerCopy + "!, ");
-            integerCopy++;
+        while (i < randomint) {
+            System.out.print("Number " + i + "!, ");
+            i++;
         }
 
         System.out.println(" ");
