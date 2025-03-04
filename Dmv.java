@@ -21,6 +21,6 @@ public class Dmv {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("Please walk up number " + randomint);
-        System.out.println("TAKE YOUR STUPID DOCUMENTS AND GET OUTTA HERE WAHAHAHAHAHHAHAHAHHA");
-    }
+            System.out.println("TAKE YOUR STUPID DOCUMENTS AND GET OUTTA HERE WAHAHAHAHAHHAHAHAHHA");
+        }
 }
