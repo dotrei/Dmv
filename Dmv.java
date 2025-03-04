@@ -21,6 +21,12 @@ public class Dmv {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("Please walk up number " + randomint);
-            System.out.println("TAKE YOUR STUPID DOCUMENTS AND GET OUTTA HERE WAHAHAHAHAHHAHAHAHHA");
+        int dice_roll = (int) (Math.random() * 100);
+        if (dice_roll == 1) {
+            System.out.println("You have the correct paperwork today!");
+        } else {
+            System.out.println("TAKE YOUR STUPID DOCUMENTS AND GET OUTTA HERE RAHHHH");
         }
+       
+    }
 }
